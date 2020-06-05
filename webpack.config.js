@@ -9,8 +9,8 @@ module.exports = {
     },
     devServer: {
         contentBase: './dist',
-        inline: true,
-        port: 5000
+        //inline: true,
+        //port: 5000
     },
     plugins: [
         new HtmlWebpackPlugin({
